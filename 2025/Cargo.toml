@@ -1,0 +1,15 @@
+[package]
+name = "aoc2025"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fancy-regex = "0.16.2"
+
+[[bin]]
+name = "01"
+path = "src/01.rs"
+
+[[bin]]
+name = "02"
+path = "src/02.rs"
