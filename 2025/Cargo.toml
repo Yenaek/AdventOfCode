@@ -5,6 +5,8 @@ edition = "2024"
 
 [dependencies]
 fancy-regex = "0.16.2"
+itertools = "0.14.0"
+nalgebra = "0.34.1"
 
 [[bin]]
 name = "01"
@@ -25,3 +27,7 @@ path = "src/04.rs"
 [[bin]]
 name = "05"
 path = "src/05.rs"
+
+[[bin]]
+name = "06"
+path = "src/06.rs"
